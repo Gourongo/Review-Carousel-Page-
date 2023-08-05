@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(carousel.image/body\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .containerbg{
+    background-color: #c7c3c3;
+    height: auto;
+    padding: 50px;
+} */
+.reviewbg{
+    max-width: 1000px;
+    height: auto;
+    background-image: url(carousel.image/reviewbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 25px white;
+}
+.review-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 15px -5px 2px rgb(2, 229, 237);
+}
+.info{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.next-Btn{
+    color: aqua;
+    background-color: transparent;
+}
+.prev-Btn{
+    color: aqua;
+    background-color: transparent;
+}
+.job{
+    color: aqua;
+}
+.surprise{
+    border: 2px solid aqua;
+    color: aqua;
+    background-color: rgb(54, 69, 64);
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 20px;
+    margin-bottom: 50px !important;
+}
+.surprise:hover{
+    border: 2px solid aqua !important;
+    background-color: rgb(75, 105, 95) !important;
+    color: aqua !important;
+}
